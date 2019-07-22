@@ -42,7 +42,7 @@ class InstaBot():
         return followers
 
         def getFollowing(self, maxi):
-            
+
 
     def closeBrowser(self):
         self.browser.close()
@@ -54,7 +54,7 @@ class InstaBot():
 
 
     
-bot = InstaBot('walletwallah', 'Sidhu11@@') #Enter your username and password here
+bot = InstaBot('', '') #Enter your username and password here
 bot.signIn()
 bot.getUnfollowers(7)
 
